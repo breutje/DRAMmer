@@ -5,12 +5,17 @@ Simpe Arduino Mega 2560 shield for testing retro DRAMs, up to 20 pins, including
 
 
 ## Features
+- Open Source / Open Hardware
 - Low cost
 - Functional test
+- +5V/-5V/+12V and single +5V devices
 - Retention time (refresh)
 - Yellow power LED: device under test is active
-- Green LED: blinking is being tested, steady is test passed
+- Green LED: blinking: being tested, steady: test passed
 - Red LED: Test failed
+
+⚠️ It cannot determine the access time of the device under test.  
+⚠️ There is no protection circuitry, thus no discovery algorithms. 
 
 ## 4116 Power.
 Only the 4027 and 4116 need -5 V and +12 V as well as +5 V.
