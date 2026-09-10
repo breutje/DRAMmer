@@ -3,6 +3,15 @@ Simpe Arduino Mega 2560 shield for testing retro DRAMs, up to 20 pins, including
 
 ![AI Impression](DRAMmer-ai-impression.jpg)
 
+
+## Features
+- Low cost
+- Functional test
+- Retention time (refresh)
+- Yellow power LED: device under test is active
+- Green LED: blinking is being tested, steady is test passed
+- Red LED: Test failed
+
 ## 4116 Power.
 Only the 4027 and 4116 need -5 V and +12 V as well as +5 V.
 The +12 V needs about 35 mA when active, the -5 V is just the substrate bias at a few hundered μA at most.
