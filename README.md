@@ -29,5 +29,5 @@ These chips needed the substrate bias to be applied first on startup and last on
 | MCM6665  | 4164    | Motorola     |  16   |   64   |   1   |                                    |
 | μPD41464 | 41464   | NEC          |  18   |  256   |   4   | CGA/EGA graphics adapters          |
 
-[^1]: All sizes use tranditional binary kilo bit/byte notation where 1 k equals 1024 bytes.    
+[^1]: All sizes use tranditional binary kilo bit/byte notation where 1 k equals 1024.    
 [^2]: Width is in bits.
