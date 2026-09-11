@@ -1,5 +1,5 @@
 # DRAMmer
-Simpe Arduino Mega 2560 shield for testing retro DRAMs, up to 20 pins, including 4116
+Simple Arduino Mega 2560 shield for testing retro DRAMs, up to 20 pins, including 4116
 
 ![AI Impression](DRAMmer-ai-impression.jpg)
 
@@ -7,10 +7,10 @@ Simpe Arduino Mega 2560 shield for testing retro DRAMs, up to 20 pins, including
 ## Features
 - Open Source / Open Hardware
 - Low cost
-- Functional test
 - +5V/-5V/+12V and single +5V devices
+- Functional test
 - Retention time (refresh)
-- Yellow power LED: device under test is active
+- Blue power LED: device under test (DUT) is powered
 - Green LED: blinking: being tested, steady: test passed
 - Red LED: Test failed
 
@@ -22,7 +22,7 @@ Only the 4027 and 4116 need -5 V and +12 V as well as +5 V.
 The +12 V needs about 35 mA when active, the -5 V is just the substrate bias at a few hundered μA at most.
 For +12 V a  boost converter module or circuit would be good enough.
 For -5 V a ICL7660, or a more modern IC, like the MAX860 can be used (the latter also has an /SHDN "enable" input).
-These chips needed the substrate bias to be applied first on startup and last on shutdown.
+These chips needed the substrate bias to be applied first on startup and removed last on shutdown.
 
 
 ## Device list
